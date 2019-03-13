@@ -285,7 +285,7 @@ describe('CLI class', () => {
   });
 
 
-  describe('when configuration was saved', () => {
+  describe.skip('when configuration was saved', () => {
     before((done) => {
       sinon.spy(DreddStub.prototype, 'init');
       sinon.stub(DreddStub.prototype, 'run').callsFake((cb) => {
